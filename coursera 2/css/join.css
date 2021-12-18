@@ -1,0 +1,134 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box; 
+}
+
+
+header{
+    text-align: center;
+}
+
+.content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  /* margin: 120px 0 50px; */
+  /* bottom: auto; */
+  /* right: auto; */
+    /* width: 100%; */
+    
+}
+
+.section1{
+    padding: 25px 20px 10px 20px;
+    /* width: 30px; */
+height: 20%;
+}
+
+.second{
+    border: 3px solid black; 
+    background-color: gray;
+    box-sizing: border-box;
+    width: 30%;
+    /* position: relative; */
+    /* min-height: 20vh; */
+}
+
+
+
+/* .content .section2{
+    border: 10px solid black; 
+    background-color: gray;
+    padding: 10px;
+    box-sizing: border-box;
+    /* width: 25%; */
+/* } */
+
+.second .small-box{
+    border: 2px solid gold;
+background-color: lawngreen;
+    /* text-align: right; */
+    /* position: absolute; */
+    float: right;
+  /* left: 514px; */
+  /* top: 0; */
+}
+
+
+@media (min-width: 992px) {
+    /* .second{
+        border: 10px solid black; 
+        background-color: gray;
+        box-sizing: border-box;
+        width: 40%;
+        /* min-height: 20vh; */
+    }
+
+    /* .second2{
+    width: 86.7%;
+    } */
+
+/* 
+    .content{
+        display: flex;
+        /* flex-wrap: wrap; */
+        justify-content: safe;
+        padding-top: 50px; 
+        /* width: 100%; */   
+    } */
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+    /* .second{
+        border: 10px solid black; 
+        background-color: gray;
+        box-sizing: border-box;
+        width: 40%;
+        min-height: 20vh;
+    }
+
+    .second2{
+    width: 86.7%;
+    }
+
+
+    .content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: ;
+        padding-top: 50px; 
+        /* width: 100%; */   
+    /* } */
+
+}
+
+
+@media (max-width: 767px) {
+    
+.content{
+justify-content: center;
+    display: grid;
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+    /* justify-content: space-around; */
+  /* margin: 120px 0 50px; */
+  /* bottom: auto; */
+  /* right: auto; */
+    /* width: 100%; */
+    
+}
+.section1{
+    margin-top: 10px;
+}
+
+.second{
+    margin-top: 20px;
+    width: 70%;
+    margin-left: 100px;
+    /* position: relative; */
+    /* min-height: 20vh; */
+}
+}
